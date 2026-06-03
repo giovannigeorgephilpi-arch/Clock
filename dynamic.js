@@ -64,7 +64,7 @@ function digitalClock() {
   secs = secs < 10 ? `0${secs}` : secs;
 
   document.getElementById("clock").textContent =
-    `${hrs}:${mins}:${secs} ${period}`;
+    `${hrs}${mins}:${secs} ${period}`;
 }
 
 function date() {
